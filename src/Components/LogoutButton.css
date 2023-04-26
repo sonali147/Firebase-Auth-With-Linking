@@ -1,0 +1,19 @@
+.LogoutButton {
+    background-color:rgb(128, 14, 241);
+    border-radius: 10px;
+    width: 60%;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  .LogoutButton > h2 {
+    color: #fff;
+    font-family: cursive;
+  }
+
+  .LogoutButton:hover {
+    background-color: rgb(143, 43, 243);
+  }

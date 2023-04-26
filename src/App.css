@@ -1,0 +1,56 @@
+.App {
+  background-color: rgb(202, 135, 244);
+  width: 97vw;
+  height: 96vh;
+  border: 15px solid rgb(128, 14, 241);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.App__Login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 240px;
+  width: fit-content;
+}
+
+.App__header {
+  color: white;
+  font-size: 45px;
+  font-weight: 700;
+  font-family: cursive;
+}
+
+.App__subHeader {
+  font-size: 20px;
+  color: white;
+  font-family: cursive;
+  margin-top: 10px;
+}
+
+.App__subHeaderSign {
+  color:rgb(128, 14, 241);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.App__subHeaderSign:hover {
+  text-decoration: underline;
+}
+.App__Logo {
+  margin-top: 150px;
+}
+
+.App__UserName {
+  color: white;
+  font-family: cursive;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.App__UserPhoto {
+  border-radius: 20px;
+  border: 3px solid rgb(128, 14, 241);
+  margin-top: 20px;
+}
