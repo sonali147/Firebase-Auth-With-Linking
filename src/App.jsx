@@ -31,8 +31,6 @@ const App = () => {
     setPhotoURL("");
   }
 
-
-
   return (
     <div className="App">
 
